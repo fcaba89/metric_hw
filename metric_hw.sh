@@ -28,5 +28,5 @@ check_disk() {
   fi
 }
 
-check_disk
+check_cpu
 check_disk
