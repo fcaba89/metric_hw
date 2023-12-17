@@ -1,0 +1,22 @@
+Script started on 2023-12-14 22:18:01-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="118" LINES="30"]
+^[[?2004h^[]0;fcaba@LAPTOP-86XYK13-CABA: ~^G^[[01;32mfcaba@LAPTOP-86XYK13-CABA^[[00m:^[[01;34m~^[[00m$ b^H^[[Kcat metri>^[[?2004l^M^[[?2004h^[]0;fcaba@LAPTOP-86XYK13-CABA: ~^G^[[01;32mfcaba@LAPTOP-86XYK13-CABA^[[00m:^[[01;34m~^[[00m$ cat m>]]
+CPU Usage: 0%
+Memory Usage: 1.20%
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.1G  238G   1% /
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+tools           238G   48G  191G  21% /init
+none            3.9G  4.0K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G     0  3.9G   0% /run/user
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+drivers         238G   48G  191G  21% /usr/lib/wsl/drivers
+lib             238G   48G  191G  21% /usr/lib/wsl/lib
+drvfs           238G   48G  191G  21% /mnt/c
+Service Status:
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+Last 10 lines of syslog:
+tail: cannot open '/var/log/syslog' for reading: No such file or directory
