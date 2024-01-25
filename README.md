@@ -1,28 +1,28 @@
-This Bash script provides a simple system health check by monitoring CPU usage, memory usage, and disk space. The results are displayed on the terminal and redirected to a text file (health_results.txt).
-Prerequisites
+**System Health Monitoring Script**
 
-    This script is intended for Unix-like systems with Bash support.
-    Ensure that the necessary command-line tools (top, vm_stat, df) are available on your system.
+This Bash script is designed to monitor and display system health information, including CPU usage, memory usage, and disk space. It runs in a loop, refreshing every 5 seconds, and outputs the results to a text file.
 
-Usage
+**Usage**
 
-    Save the script to a file, e.g., system_health_check.sh.
-    Make the script executable: chmod +x system_health_check.sh.
-    Run the script: ./system_health_check.sh.
-    The script will display real-time system health information, refreshing every 5 seconds.
-    Results are also saved to health_results.txt for future reference.
+1. Make sure you have Bash installed on your system.
+2. Clone or download the script to your local machine.
 
-Functions
+**Steps**
+git clone https://github.com/your-username/system-health-script.git
+3.	Navigate to the script directory.
 
-    Check CPU Usage:
-        Displays CPU usage using the top command.
+cd system-health-script
+4.	Make the script executable.
 
-    Check Memory Usage:
-        Displays free, active, and inactive memory using the vm_stat command.
+chmod +x health_monitor.sh
+5.	Run the script.
 
-    Check Disk Space:
-        Displays disk space information using the df command.
+./health_monitor.sh
+The script will display real-time system health information in the terminal and save the results to a file named health_results.txt.
 
-Output
+**Customization**
+You can customize the script to suit your needs. For example, you might want to adjust the refresh interval, add more monitoring functions, or modify the output format.
 
-The script provides an overview of CPU usage, memory usage, and disk space in a structured format. The results are continuously updated in the terminal and saved to health_results.txt.
+**Contributing**
+Feel free to contribute to the project by creating issues or submitting pull requests. Your feedback and improvements are highly appreciated.
+
